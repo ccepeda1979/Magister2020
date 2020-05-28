@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                input message: 'Finished Build Files Team Argenis & Manu (Click "Proceed" to continue)'
+                input message: 'Finished Build Files Team (Click "Proceed" to continue)'
             }
         }
         stage('Test') {
