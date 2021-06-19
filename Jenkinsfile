@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                input message: 'Finished Build Files Team CECG 2020 (Click "Proceed" to continue)'
+                input message: 'Finished Build Files Team CECG 2021 (Click "Proceed" to continue)'
             }
         }
         stage('Test') {
