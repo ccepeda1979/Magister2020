@@ -13,7 +13,7 @@ pipeline {
 
          stage('Review Code') {
             steps {
-                sh './jenkins/scripts/test.sh'
+                sh './jenkins/scripts/sonar.sh'
             }
         }
      
