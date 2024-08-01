@@ -4,6 +4,7 @@ pipeline {
   //              label "master"  //change this as per your agent label
   //          }
   //      }
+    agent any
     stages {
         stage('Clone Code New') {
             steps {
