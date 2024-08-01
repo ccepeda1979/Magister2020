@@ -22,7 +22,7 @@ pipeline {
       
         stage('Build') {
             steps {
-                input message: 'Finished Build Files Team CECG 2021 (Click "Proceed" to continue)'
+                input message: 'Finished Build Files Team CECG 2024 (Click "Proceed" to continue)'
               sleep 10
             }
         }
