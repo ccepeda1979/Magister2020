@@ -40,6 +40,12 @@ pipeline {
               sleep 10
             }
         }
+        stage('Test Security') {
+            steps {
+                sh './jenkins/scripts/test.sh'
+              sleep 10
+            }
+        }
       
         stage('Test Performance') {
             steps {
