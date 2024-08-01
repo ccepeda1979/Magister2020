@@ -1,9 +1,9 @@
 pipeline {
-  agent {
-            node {
-                label "master"  //change this as per your agent label
-            }
-        }
+  //agent {
+  //          node {
+  //              label "master"  //change this as per your agent label
+  //          }
+  //      }
     stages {
         stage('Clone Code New') {
             steps {
